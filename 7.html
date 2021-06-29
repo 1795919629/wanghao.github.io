@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>在线报名</title>
+    <link rel="stylesheet" href="/c07/css/w6.css">
+</head>
+<body>
+    <div id="box">
+        <h2 class="header">下面就开始在线报名吧<span>（以下信息是报名的重要依据，请认真填写）</span></h2>
+        <form action="#" method="post">
+            <table>
+               <tr>
+                   <td class="left">姓名<span>*</span></td>
+                   <td><input type="text" name="user" value="&nbsp;&nbsp;&nbsp;&nbsp;报名的重要依据，请认真填写" class="txt01"/></td>
+               </tr>
+               <tr>
+                <td class="left">手机<span>*</span></td>
+                <td><input type="tel" name="tel_number" value="&nbsp;&nbsp;&nbsp;&nbsp;报名的重要依据，请认真填写" class="txt02"></td>
+               </tr>
+               <tr>
+                <td class="left">性别<span>*</span></td>
+                <td><input type="radio" name="sex" id="man"/>
+                    <label for="man">男</label>
+                    <input type="radio" name="sex" id="woman"/>
+                    <label for="woman">女</label>
+                </td>
+               </tr>
+               <tr>
+                <td class="left">邮箱<span>*</span></td>
+                <td><input type="email" name="email_number" class="text03"/></td>
+               </tr>
+               <tr>
+                <td class="left">意向课程<span>*</span></td>
+                <td><select name="xuanze" class="course">
+                    <option value="">网页设计</option>
+                    <option selected="selected" >平面设计</option>
+                    <option value="">设计</option>
+                </select>
+            </td>
+               </tr>
+               <tr>
+                <td class="left">了解传智渠道</td>
+                <td>
+                    <input type="checkbox" name="know" id="baidu"/>
+                    <label for="baidu">baidu</label>
+                    <input type="checkbox" name="know" id="luntan"/>
+                    <label for="luntan">论坛</label>
+                    <input type="checkbox" name="know" id="friend_C"/>
+                    <label for="friend_C">朋友推荐</label>
+                    <input type="checkbox" name="know" id="CSD"/>
+                    <label for="CSD">CSD网站</label>
+                    <input type="checkbox" name="know" id="vedio">
+                    <label for="vedio">视频教程</label>
+                    <input type="checkbox" name="know" id="other">
+                    <label for="other">其他</label>
+                </td>
+               </tr>
+               <tr>
+                <td class="left">留言</td>
+                <td>
+                    <textarea name="passage"  cols="50" rows="5">请简述你有没有设计基础，以及为什么选择学习网页平面</textarea>
+                </td>
+               </tr>
+               <tr>
+                <td>&nbsp;</td>
+                <td><input type="submit" name="submit" value="提交"></td>
+               </tr>
+            </table>
+        </form>
+    </div>
+    <div class="d01"></div>
+</body>
+</html>

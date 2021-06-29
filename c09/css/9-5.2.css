@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box_video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#box_video img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -1350px;
+    margin-top: -540px;
+}
+.cd{
+    width: 422px;
+    height: 422px;
+    position: absolute;
+    top:25%;
+    left: 10%;
+    z-index:2;
+    border: 10px solid #000;
+    border-radius: 50%;
+    background: url(../images/cd_img.jpg) no-repeat;
+}
+.center{
+    width:100px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 3;
+    border: 5px solid #FFF;
+    background-image: url(../images/yinfu.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.song{
+    position: absolute;
+    top: 25%;
+    left:50%;
+}
+@font-face{
+    font-family: MD;
+    src: url(../font/MD.ttf);
+}
+h2{
+    font-family: MD;
+    font-size: 110px;
+    color: #913805;
+}
+p{
+    width: 556px;
+    height: 300px;
+    font-family: "微软雅黑";
+    padding-left: 30px;
+    line-height: 30px;
+    background: url(../images/bg.png )repeat-x;
+    box-sizing:border-box;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>translation3d()方法</title>
+    <style>
+        div{
+            width: 200px;height: 200px;
+            border: 1px solid #000;
+            position: relative;
+            transition: all 1s ease 0s;
+            transform-style: preserve-3d;
+        }
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translateZ(100px);
+        }
+        .no2{
+            transform: rotate(90deg) translateZ(100px);
+        }
+        div:hover{
+            transform: rotateX(-90deg);
+        }
+        div:visited{
+            transform: rotateX(-90deg);
+            transition: all 1s ease 0s;
+            transform-style: preserve-3d;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="no1" src="../img/1.png" alt="">
+        <img class="no2" src="../img/2.png" alt="">
+    </div>
+</body>
+</html>
